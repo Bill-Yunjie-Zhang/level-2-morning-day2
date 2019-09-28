@@ -10,6 +10,7 @@
 var nums = [1,3,8,9,35,36,-29]
 
 var stats = require('simple-statistics')
+var _ = require('lodash')
 
 console.log(stats.min(nums))
 console.log(stats.sum(nums))
